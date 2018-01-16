@@ -228,10 +228,9 @@ function equal() {
 
 function doMath(num1, num2, operator){
 	let result;
-	console.log(num1, num2);
 	let number1 = Number(num1);
 	let number2 = Number(num2);
-	console.log(number1, number2)
+
 	if (operator === "+") {
 		result = number1 + number2;
 	}else if (operator === "-") {
@@ -243,3 +242,32 @@ function doMath(num1, num2, operator){
 	}
 	display.innerHTML = result;
 } 
+// let result = 0;
+
+// 	switch (operator) {
+// 	  case '+':
+// 	    result = parseInt(input1) + parseInt(input2);
+// 	    display.innerHTML=result;
+// 	  break;
+// 	  case '-':
+// 	    result = parseInt(input1) - parseInt(input2);
+// 	    display.innerHTML=result;
+// 	  break;
+// 	  case 'x':
+// 	  	result = parseInt(input1) * parseInt(input2);
+// 	  	display.innerHTML=result;
+// 	  break;
+// 	  case '/':
+// 	  	result = parseInt(input1) / parseInt(input2);
+// 	  	display.innerHTML=result;
+// 	  break;
+// 	  default:
+// 	  	console.log('Error regarding switch statement: check code!');
+// 	};
+// };
+
+
+
+// function button() {
+// 	display.innerHTML+=this.value
+// };
