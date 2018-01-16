@@ -242,32 +242,3 @@ function doMath(num1, num2, operator){
 	}
 	display.innerHTML = result;
 } 
-// let result = 0;
-
-// 	switch (operator) {
-// 	  case '+':
-// 	    result = parseInt(input1) + parseInt(input2);
-// 	    display.innerHTML=result;
-// 	  break;
-// 	  case '-':
-// 	    result = parseInt(input1) - parseInt(input2);
-// 	    display.innerHTML=result;
-// 	  break;
-// 	  case 'x':
-// 	  	result = parseInt(input1) * parseInt(input2);
-// 	  	display.innerHTML=result;
-// 	  break;
-// 	  case '/':
-// 	  	result = parseInt(input1) / parseInt(input2);
-// 	  	display.innerHTML=result;
-// 	  break;
-// 	  default:
-// 	  	console.log('Error regarding switch statement: check code!');
-// 	};
-// };
-
-
-
-// function button() {
-// 	display.innerHTML+=this.value
-// };
