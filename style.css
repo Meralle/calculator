@@ -1,0 +1,31 @@
+
+.calbody{
+	display:grid;
+	grid-template-columns: 80px 80px 80px 80px;
+	grid-template-rows: 80px 80px 80px 80px 80px;
+	margin: 0 auto;
+	width: 25%;	
+}
+
+.calbody button{
+	font-size:40px; 
+}
+#dividbutton, #xbutton, #plusbutton, #equalbutton, #minusbutton{
+	background-color: orange;
+}
+#display{
+	background-color: #AB682A;
+	width:240px;
+	margin-right: 30px;
+	padding:40px;
+	margin:0 auto;
+	margin-top: 30px;
+	text-align: right;
+	font-size: 40px;
+}
+#num0{
+	grid-column-start:1;
+	grid-column-end: 3;
+	grid-row-start:5;
+	grid-row-end: 6;
+}
