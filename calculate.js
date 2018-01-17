@@ -1,6 +1,6 @@
 let input1 ="";
 let input2 ="";
-let operator = ""
+let operator = "";
 let display = document.getElementById("display");
 
 let clearbutton = document.getElementById("clearbutton");
@@ -221,8 +221,7 @@ function equal() {
 	console.log(equalbutton);
 	display.innerHTML+=equalbutton.value;
 	doMath(input1, input2, operator);
-	input1 = "";
-	input2 = "";
+
 	
 }
 
@@ -241,4 +240,35 @@ function doMath(num1, num2, operator){
 		result = number1 * number2;
 	}
 	display.innerHTML = result;
+	input1 = result;
+	input2 = "";
 } 
+// let result = 0;
+
+// 	switch (operator) {
+// 	  case '+':
+// 	    result = parseInt(input1) + parseInt(input2);
+// 	    display.innerHTML=result;
+// 	  break;
+// 	  case '-':
+// 	    result = parseInt(input1) - parseInt(input2);
+// 	    display.innerHTML=result;
+// 	  break;
+// 	  case 'x':
+// 	  	result = parseInt(input1) * parseInt(input2);
+// 	  	display.innerHTML=result;
+// 	  break;
+// 	  case '/':
+// 	  	result = parseInt(input1) / parseInt(input2);
+// 	  	display.innerHTML=result;
+// 	  break;
+// 	  default:
+// 	  	console.log('Error regarding switch statement: check code!');
+// 	};
+// };
+
+
+
+// function button() {
+// 	display.innerHTML+=this.value
+// };
