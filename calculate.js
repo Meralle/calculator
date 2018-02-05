@@ -269,6 +269,6 @@ function doMath(num1, num2, operator){
 
 
 
-// function button() {
+// 	function button() {
 // 	display.innerHTML+=this.value
 // };
